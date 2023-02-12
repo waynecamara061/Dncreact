@@ -1,11 +1,11 @@
+import React from "react";
 function Task(props) {
-    return 
-    // (
-        <>
+    return (
+        <div>
             <input type="checkbox" />
             {props.text}
-        </>;
-    // );
+        </div>
+    );
 }
 
 export default Task;
